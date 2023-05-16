@@ -21,7 +21,7 @@ public class App {
         System.out.print("Enter the Salt Value: ");
         salt = console.readLine();
 
-        System.out.println("Hash Value of the given password and the hash: " + preparePassword(password, salt));
+        System.out.println("Hash Value of the given password and the salt: " + preparePassword(password, salt));
     }
 
     public static String preparePassword(Object password, String saltValue) {
